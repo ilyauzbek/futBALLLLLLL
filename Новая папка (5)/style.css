@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGwV3yiKFq4lzh-hKfizWDzDXG_i39pdJNOA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ball{
+    width: 65px;
+
+    animation: anim1 3s infinite alternate;
+}
+
+
+
+
+
+@keyframes anim1 {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+        rotate: 0;
+    }
+
+
+
+    20%{
+        margin-top: 300px;
+
+
+    }
+    100%{
+        margin-top: 200px;
+        margin-left: 999px;
+        rotate: 5000deg;
+
+    }
+}
+
